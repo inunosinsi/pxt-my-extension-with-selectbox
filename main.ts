@@ -2,15 +2,15 @@
 namespace myExtensionWithSelectBox {
 
     export enum MyOptions {
-        // % block="選択肢A"
+        //% block="選択肢A"
         OptionA = 1,
-        // % block="選択肢B"
+        //% block="選択肢B"
         OptionB = 2,
-        // % block="選択肢C"
+        //% block="選択肢C"
         OptionC = 3
     }
 
-    // % block="コマンドを実行： %choice"
+    //% block="コマンドを実行： %choice"
     export function hello(choice: MyOptions): void {
         // 選択された値に応じた処理
         switch (choice) {
