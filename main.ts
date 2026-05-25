@@ -11,7 +11,7 @@ namespace myExtensionWithSelectBox {
     }
 
     //% block="コマンドを実行： %choice"
-    export function hello(choice: MyOptions): void {
+    export function fn(choice: MyOptions): void {
         // 選択された値に応じた処理
         switch (choice) {
             case MyOptions.OptionA: // オプションAの時の処理
